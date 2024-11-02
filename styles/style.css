@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --btn-primary-color: #E6533C;
+  --full-body-color: #000;
+  --footer-bg-color: rgba(255, 255, 255, 0.10);
+}
+
+/* shared style  */
+/* font family  */
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Miama-font {
+  font-family: "Miama", sans-serif;
+}
+
+/* background-color  */
+.full-body-color {
+  background-color: var(--full-body-color);
+}
+
+/* primary btn color style  */
+.primary-color {
+  color: var(--btn-primary-color);
+}
+
+
+/* navbar style  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: 50px 190px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.nav-item li {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  margin-right: 24px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nav-title {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+#nav-home {
+  background-color: var(--btn-primary-color);
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 46px;
+}
+
+
